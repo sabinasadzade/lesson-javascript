@@ -1,0 +1,31 @@
+.allBox{
+    display: flex;
+    position: relative;
+    transition: 1s ease-in-out;
+    left:0
+    
+}
+.slider{
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+#prevBtn,#nextBtn{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+#nextBtn{
+    right:25px;
+}
+#prevBtn{
+    left:25px;
+}
+.box{
+    width: 800px;
+    float: left;
+}
+img{
+    width: 800px;
+}
